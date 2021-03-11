@@ -75,7 +75,11 @@ a {
 margin:0px;
 padding:0px;
 text-decoration: none;
-color: black;
+color: white;
+}
+
+a:hover {
+color: black;  
 }
 
 /* Css code for welcome introduction */
@@ -126,11 +130,13 @@ left: 5px;
 
 .connection-list li:hover {
 background-color: white;
-color:#303841;
+color:black;
 border-radius: 5px;
 transform: translateY(-8px);
 /* transform: skewY(-10deg); */
 }
+
+
 
 
 /* Css code for welcome introduction end */
@@ -256,4 +262,3 @@ transform: translateY(-8px);
 }
 
 /* css code for footer end */
-/* second upload */
