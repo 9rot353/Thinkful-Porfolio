@@ -1,0 +1,295 @@
+
+body {
+ background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+/* header css */
+h1 {
+text-transform: uppercase;  
+font-size: 50px;
+color: white;
+display:block;
+text-align: center;
+margin: auto;
+margin-bottom:0px;
+font-family: 'Nunito', sans-serif;
+text-shadow: 2px 4px 5px black;
+}
+
+h2 {
+text-transform:; 
+margin-bottom: 0px;
+}
+
+h3 {
+color: red;
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 30px;
+text-transform:;
+text-decorations:;
+font-family: 'Oswald', sans-serif;
+}
+
+/* header css end */
+
+
+/* text element css */
+p {
+margin-top: 0px;
+width: auto;
+text-align: center;
+color: white;
+line-height: 25px;
+}
+
+article {
+text-align: center;
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
+color: white;
+border-top: 2px white solid;
+border-bottom: 2px white solid;
+margin:10px 0px 10px 0px;
+}
+
+footer {
+width: 100%;
+}
+
+.margin-none{
+margin: 0px;
+}
+
+li {
+display: inline-block;
+/* border: 1px solid black; */
+height: 100%;
+font-size: 25px;
+margin-right: 35px;
+color: white;
+list-style-type: circle;
+}
+
+/* text element css end */
+
+a {
+margin:0px;
+padding:0px;
+text-decoration: none;
+color: white;
+}
+
+a:hover {
+color: black;  
+}
+
+/* Css code for welcome introduction */
+.welcome-container{
+text-align: center;
+margin: auto;
+position: relative;
+left: 10px;
+}
+
+.welcome-img {
+margin-top: 10px; 
+border-radius: 1000px ;
+margin-bottom:0px;
+height:200px;
+width:200px;
+transition: transform .5s;
+position: relative;
+right: 5px;
+}
+.welcome-img:hover {
+transform: rotate(360deg) scale(1.1);  
+}
+
+.location {
+color: white;
+font-size: 25px;
+margin-top: 0px;
+position: relative;
+right: 5px;
+}
+.connection-list {
+ text-align:center; 
+ font-family: 'Oswald', sans-serif;
+ /* border: solid black; */
+}
+
+.connection-list li {
+text-align:center; 
+color: white;
+text-transform: capitalize;
+ transition: transform .2s;
+position: relative;
+left: 5px;
+}
+
+.connection-list li:hover {
+background-color: white;
+color:black;
+border-radius: 5px;
+transform: translateY(-8px);
+/* transform: skewY(-10deg); */
+}
+
+
+
+
+/* Css code for welcome introduction end */
+.passion-header{
+font-size: 25px;  
+text-align: center;
+color: white;
+}
+
+.passion p{
+max-width: 60%;  
+}
+
+
+/* 
+.passion li{
+font-size: 20px;
+list-style-type:initial;
+display: block;
+text-align: left;
+font-family: 'Oswald', sans-serif;
+font-weight:bolder;
+} */
+
+.education {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 50px;
+ font-family: 'Oswald', sans-serif;
+}
+.certification-box {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  
+  /* border: 1px black solid; */
+}
+.certification-box img {
+  box-shadow: none;
+  border-radius: 10px;
+  min-width: 50%;
+  max-width: 80%;
+  min-height: 100%;
+  z-index: 0;
+  box-shadow: 2px 2px 8px
+}
+.certification-box img:hover {
+  transform: translate(0px, -30px);
+  z-index: 0;
+}
+.certification-box:nth-child(2):hover {
+  transform: translate(0px, 30px);
+  z-index: 0;
+}
+.languages {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+.langs-box {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid black; */
+}
+.langs-box img {
+  box-shadow: none;
+  border-radius: 10px;
+  z-index: 0;
+  min-width: 25%;
+  max-width: 80px;
+  height: 50%;
+  box-shadow: 2px 2px 8px
+}
+.langs-box img:hover {
+  z-index: 0;
+}
+
+.image-enlarge {
+  max-width: 1000px; important
+}
+/* end of css code for certification-box */
+
+.action-container{
+text-align: center;
+margin:auto;
+position: relative;
+right: -5px;
+}
+.action {
+height: 50px;
+width: auto;
+padding: 10px;
+text-align: center;
+border: 2px solid black;
+  border-radius: 8px;
+display: inline-block;
+  background-color:#be2000;
+    color: white;
+    box-shadow: 5px 1px 10px black;
+margin-top:20px;
+}
+
+.action-header {
+color: white;
+font-size: 30px;
+}
+
+/* css code for footer */
+footer h3 {
+  font-family: 'Nunito', sans-serif;
+  color: black;
+  margin-top: 10px;
+
+}
+footer {
+border-top: 2px red solid;
+height: 100px;
+width: 100%;
+bottom: 0px;
+background-color: #303841;
+color: white;
+text-transform: capitalize;
+text-align: right;
+}
+
+.footer-links {
+ 
+ text-align:center; 
+ font-family: 'Oswald', sans-serif;
+}
+
+.center {
+  text-align:center;
+}
+
+.footer-links img {
+
+ padding:0px;
+ margin-top:10px;
+ max-width: 20%;
+ max-width:10%;
+}
+.footer-links img:hover {
+background-color: white;
+border-radius: 5px;
+transform: translate(8px);
+/* transform: skewY(-10deg); */
+}
+
+/* css code for footer end */
