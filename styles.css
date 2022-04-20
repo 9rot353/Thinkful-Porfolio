@@ -22,6 +22,16 @@ text-transform:;
 margin-bottom: 0px;
 }
 
+figure {
+ 
+  text-align:center;
+}
+figure figcaption {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 45px;
+}
+
 h3 {
 color: orange;
 margin-top: 0px;
