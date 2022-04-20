@@ -23,7 +23,7 @@ margin-bottom: 0px;
 }
 
 h3 {
-color: red;
+color: orange;
 margin-top: 0px;
 margin-bottom: 0px;
 font-size: 30px;
@@ -44,6 +44,9 @@ color: white;
 line-height: 25px;
 }
 
+span {
+  color: orange
+}
 article {
 text-align: center;
 font-family: 'Oswald', sans-serif;
@@ -231,17 +234,18 @@ margin:auto;
 position: relative;
 right: -5px;
 }
+
 .action {
 height: 50px;
 width: auto;
 padding: 10px;
 text-align: center;
 border: 2px solid black;
-  border-radius: 8px;
+border-radius: 8px;
 display: inline-block;
-  background-color:#be2000;
-    color: white;
-    box-shadow: 5px 1px 10px black;
+background-color:#be2000;
+color: white;
+box-shadow: 5px 1px 10px black;
 margin-top:20px;
 }
 
@@ -255,8 +259,8 @@ footer h3 {
   font-family: 'Nunito', sans-serif;
   color: black;
   margin-top: 10px;
-
 }
+
 footer {
 border-top: 2px red solid;
 height: 100px;
@@ -279,16 +283,16 @@ text-align: right;
 }
 
 .footer-links img {
-
  padding:0px;
  margin-top:10px;
  max-width: 20%;
  max-width:10%;
 }
+
 .footer-links img:hover {
-background-color: white;
+background-color:;
 border-radius: 5px;
-transform: translate(8px);
+transform: translate(0px, -30px)
 /* transform: skewY(-10deg); */
 }
 
